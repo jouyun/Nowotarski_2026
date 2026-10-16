@@ -9,7 +9,7 @@ Location: `S:\micro\asa\stn\mel\20-15_Irradiation_Datasets\20210721_MER_IMARE-10
 | Step | Notebook / tool | Does |
 |---|---|---|
 | 1 | `Normalize.ipynb`, `NormalizeImages.ipynb` | Per-slice contrast normalization of the bin4 stacks |
-| 2 | DeepFijiv2 `2D_Trainer-Nucleii.ipynb` (kept in `U:\smc\public\SMC\DeepFijiv2\`, not here) | Trains the 2D U-Net and writes per-slice nuclear probability maps |
+| 2 | DeepFijiv2 
 | 3 | `NucleiiFinder.ipynb` | Turns probability maps into labeled 3D nuclei (`Labels.tif`) |
 | 4 | `Calculate_Volume_CenterOfMass.ipynb` | Volume and center of mass for every nucleus |
 | 5 | `ParseOutNucleii.ipynb` | Crops each nucleus into its own mini-volume for annotation |
