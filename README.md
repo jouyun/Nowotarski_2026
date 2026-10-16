@@ -57,10 +57,6 @@ Annotation results are named `<ANNOTATOR>_<round>_<date>.csv`:
 - `*_Others_*`: second pass. Nuclei left as Other/Doublet/Muscle/Neuronal are re-scored by a different annotator.
 - `*_Amputated_List_*`: the 48 hpa round, with 448 homeostatic nuclei mixed in blind as a consistency check.
 
-### Classify.ijm
-- Cycles through files and calls the imagej plugin Classify Individual (github.com/jouyun/smc-plugins)
-
-
 ### ShowClasses.ipynb
 The main analysis notebook.
 - Loads every annotation CSV and applies the second-pass labels on top of the first pass.
